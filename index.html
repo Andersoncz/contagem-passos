@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscador de idade</title>
+</head>
+
+<body>
+    <header>
+        <h1>VAMOS CONTAR</h1>
+    </header>
+    <section>
+        <div>
+            <p>INÍCIO:
+                <input type="number" name="inicio" id="inicio" min="0">
+            </p>
+
+            <p>FIM:
+                <input type="number" name="fim" id="fim" min="0">
+            </p>
+
+            <p>PASSO:
+                <input type="number" name="passo" id="passo" min="0">
+            <p>
+
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">
+            Preparando contagem... </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
